@@ -1,0 +1,102 @@
+ .carrer_section .acc_content {
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.5s ease;
+ }
+
+ .carrer_wrapper {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .carrer_wrapper .job_opening {
+     flex: 0 0 64%;
+     width: 64%;
+ }
+
+ .carrer_wrapper .right_img {
+     flex: 0 0 34%;
+     width: 34%;
+
+ }
+
+
+ .career_info {
+     padding: 20px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     border: 1px solid #ddd;
+     border-radius: 20px;
+     height: auto;
+ }
+
+ .carrer_wrapper .acc_item .active {
+     max-height: 500px !important;
+     transition: all .5s ease-in;
+     margin-top: 10px;
+ }
+
+ .carrer_section .acc_item {
+
+     margin-bottom: 20px;
+     cursor: pointer;
+     border: 1px solid #ddd;
+     padding: 7px 15px;
+     background-color: #ddd;
+     border-radius: 10px;
+ }
+
+ .carrer_section .acc_item:hover .jobrole {
+     text-decoration: underline;
+ }
+
+ .carrer_section .acc_item:hover {
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ }
+
+ .carrer_section .acc_header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .carrer_section .acc_header .jobrole {
+     font-weight: 600;
+     color: red;
+ }
+
+ .carrer_section .acc_header .place {
+     font-size: 13px;
+ }
+
+ .carrer_wrapper h3 {
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+ .carrer_wrapper p {
+     font-size: 15px;
+     margin-bottom: 5px;
+ }
+
+ .right_img  .mail_us{ margin: 10px 0 ;}
+  .right_img .mail_us h4{ font-weight: 500}
+   .right_img .mail_us ul li a{ display: flex;  align-items: center; gap: 5px;   }
+
+    .right_img .mail_us ul li:hover a{ color: red;}
+
+    .mail_us .contact_icons {  margin-top: 15px;}
+
+  .form_section { background-color: #f5f5f5; padding: 60px 0;}
+    .form_section .career_form{ display: flex; justify-content: space-between;} 
+
+      .form_section .career_form .form_container{  padding: 0px;}
+     .form_section .career_form .form_container .title{ font-size: 25px; margin-bottom: 10px;}
+        .form_section .career_form  .file_group { width: 100%;}
+
+         .form_section .career_form  .file_group   .form_control:focus {
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+  .career_form .career_banner { height:-webkit-fill-available ;} 
+  .career_form .career_banner  imgh{ height: 100%;}

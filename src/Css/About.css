@@ -1,0 +1,33 @@
+
+
+.about_information{ display: flex; justify-content: space-between;}
+
+.about_information .main_title { font-size: 40px; color: red; font-weight: 600;}
+
+.about_information .main_content{ font-size: 16px; line-height: auto; margin-top: 18px;} 
+
+
+
+.mission_section{ background-color: #ebe9e9; margin-top:60px ;}
+.mission_vision{ display: grid; grid-template-columns: repeat(3,1fr); gap: 30px;   }
+
+.mission_vision .icons{ width: 50px; height: 50px; border-radius: 50%; background-color: red;  display: flex; align-items: center; justify-content: center ;  }
+.mission_vision .icons .icon{ font-size: 25px; color: #fff;  }
+.mission_vision .heading{ font-size: 22px; font-weight: 600; margin: 10px 0; }
+.mission_vision .mission_box{ margin: 40px 0; }
+.mission_vision .mission_box:hover  .icon{ color: red; transition: all .4s ease-in ;} 
+.mission_vision .mission_box:hover  .icons{ background-color: white; border: 1px solid #000;  transition: all .4s ease-in ;} 
+
+
+
+
+.our_offer{ padding: 60px 0 ;}
+.our_offer .offer_boxes{ display: grid; grid-template-columns: repeat(3,1fr); gap: 30px;}
+  .our_offer .offer_boxes .box_slide{ padding: 20px; border: 1px solid #ddd;  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 10px; }
+
+    .our_offer .offer_boxes .box_slide h3{ font-size: 18px; margin: 10px 0; font-weight: 500;}
+
+      .our_offer .offer_boxes .box_slide:hover{ transform: translateY(-5px); transition: all .2s ease-in;}
+          .our_offer .offer_boxes .box_slide .icons{ color: red; }
+             .our_offer .offer_boxes .box_slide:hover h3{ color: red; transition: all .3s ease-in;}
+             .our_offer .offer_boxes .box_slide:hover .icons{color:#000}

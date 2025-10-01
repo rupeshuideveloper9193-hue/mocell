@@ -1,0 +1,167 @@
+.testimonial_main {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 0 50px 0;
+    border: 1px solid #dddddd60;
+}
+
+.test_wrapper {
+    margin-bottom: 30px;
+}
+
+.testimonial_main .rating {
+    display: flex;
+    margin-bottom: 15px;
+    color: #fbcd0a !important
+}
+
+.testimonial_text {
+    font-size: 14px;
+    position: relative;
+    display: ruby !important;
+}
+
+.testimonial_text .icon {
+    color: #888;
+}
+
+
+.testimonial_main .testimonial_info {
+    margin: 15px 0;
+}
+
+.test_wrapper .swiper-slide-active .testimonial_main {
+    box-shadow: 0 8px 30px rgba(40, 60, 90, 0.20);
+    transform: scale(1.07);
+    z-index: 2;
+
+}
+
+.testimonial_info .testimonial_name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.testimonial_info .testimonial_role {
+    font-size: 13px;
+    color: #888;
+}
+
+
+.test_wrapper .swiper-pagination-bullet-active {
+    background-color: red !important;
+}
+
+
+
+
+
+
+
+
+/*    our team css write here */
+
+
+
+
+.our_team_wrapper {
+    margin: 30px 0;
+}
+
+.our_team_wrapper .swiper-slide {
+    margin-top: 0px !important;
+}
+
+.team_box {
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.team_box img {
+    border-radius: 15px;
+}
+
+
+.team_box .employee_name {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Start fully hidden at bottom and invisible */
+    transform: translateY(100%);
+    opacity: 0;
+    background-color: rgba(244, 174, 174, 0.553);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: opacity .4s ease, transform .4s ease;
+    ;
+}
+
+.team_box:hover .employee_name {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.team_box .employee_name h4 {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.team_box .employee_name p {
+    color: #ddd;
+}
+
+.our_team_wrapper .swiper-pagination-bullet-active {
+    background-color: red !important;
+}
+
+
+
+
+/*  our gallery css write here  */
+
+.gallery_wrapper {
+    margin: 30px 0;
+}
+
+.gallery_box {
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+   
+}
+
+.gallery_box:hover img {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    border-radius: 15px;
+}
+
+.gallery_box img {
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+     
+}
+
+.gallery_box:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.gallery_wrapper .swiper-slide {
+    margin-top: 0px !important;
+}
+
+.gallery_wrapper .swiper-pagination-bullet-active {
+    background-color: red !important;
+}

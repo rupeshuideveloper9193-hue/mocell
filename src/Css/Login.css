@@ -1,0 +1,178 @@
+.login_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+
+.login_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 850px;
+    height: 90vh;
+    margin: auto;
+    z-index: 10000;
+    position: relative;
+    background: #b1e2e3;
+    background: linear-gradient(0deg, rgba(177, 226, 227, 1) 0%, rgba(247, 226, 183, 1) 100%);
+}
+
+.login_section .login_form {
+    padding: 50px;
+}
+
+.login_section .login_form .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login_section .login_form .title h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.login_section .login_form .title p {
+    font-size: 15px;
+    color: #888;
+}
+
+
+
+.login_section .login_form .form_group {
+    width: 100%;
+}
+
+
+.login_section .login_form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.login_section .login_form .form_control::placeholder {
+    font-size: 12px;
+}
+
+.login_section .login_form .form_control {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    transition: border-color 0.3s ease;
+    font-size: 15px;
+    outline: none;
+}
+
+.login_section .login_form .form_control:focus {
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+.login_img {
+    height: 100%;
+}
+
+.login_img img {
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.login_btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 100%;
+    padding: 8px 10px;
+
+    text-align: center;
+    cursor: pointer;
+    background: red;
+    position: relative;
+    overflow: hidden;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+
+
+
+.login_btn:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(69, 183, 209, 0.4);
+}
+
+.login_btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.login_btn:hover::after {
+    width: 150px;
+    height: 150px;
+}
+
+
+.bottom_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_link p {
+    font-size: 11px;
+}
+
+.bottom_link p a {
+    text-decoration: underline;
+}
+
+.bottom_link p a:hover {
+    color: red;
+}
+
+
+.cross_icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  background-color: #000;
+  width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%; 
+    display: flex;
+     align-items: center;
+   justify-content: center;   
+}
+
+.cross_icon .icon {
+    font-size: 20px;
+}

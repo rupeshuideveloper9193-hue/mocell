@@ -1,0 +1,281 @@
+.top_wrapper {
+    max-width: 750px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: -webkit-center;
+}
+
+.top_wrapper .main_title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.top_wrapper .sub_title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+
+
+.apply_now {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 12px 14px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(149, 193, 235);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.apply_now:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(69, 183, 209, 0.4);
+}
+
+.apply_now::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+
+.apply_now:hover::after {
+    width: 150px;
+    height: 150px;
+}
+
+
+.benefit_section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.benefit_section .title {
+    text-align: center;
+}
+
+.benefit_box .icon {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.benefit_box .title {
+    margin: 10px 0;
+    color: red;
+}
+
+.benefit_box .apply_now {
+    margin: 0 auto;
+    padding: 5px 16px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.benefit_box {
+    text-align: center;
+    background: #fff;
+    border-radius: 30px;
+    filter: drop-shadow(0px 5px 15px rgba(215, 215, 217, 0.3));
+
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.benefit_box::after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    background-color: #fdde6a;
+    position: absolute;
+    left: -30px;
+    bottom: -60px;
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.benefit_box:hover:after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 50% 0 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.distributer_form_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.distributer_form_container .form_content {
+    text-align: center;
+}
+
+.distributer_form_container .form_content .title {
+    font-size: 40px;
+}
+
+.distributer_form_container .form_content .para {
+    margin-bottom: 30px;
+}
+
+
+.distributer_form_container .submit_btn {
+    background: rgb(149, 193, 235);
+}
+
+.distributer_form_container .submit_btn:hover {
+    background-color: #000;
+}
+
+.distributer_form_container .form_wrapper select {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    transition: border-color 0.3s ease;
+    font-size: 15px;
+    outline: none;
+}
+
+.distributer_form_container .form_wrapper select {
+    color: #888;
+}
+.distributer_form_container .form_container .form_wrapper label{ margin-bottom: 12px;}
+.distributer_form_container .form_wrapper select:focus {
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+
+.agree_box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.agree_box a {
+    text-decoration: underline;
+}
+
+.agree_box a:hover {
+    color: red;
+}
+
+
+
+
+.bottom_section {
+    background-color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.bottom_section h3 {
+    font-size: 28px;
+    color: red;
+}
+
+.bottom_section p {
+    color: #f5f5f5;
+    margin: 10px 0;
+}
+
+
+.bottom_section .icons {
+    justify-content: center;
+    display: flex;
+    color: #f5f5f5;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+
+.bottom_section .icons li {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+.bottom_section .icons li .icon {
+    color: red;
+}
+
+
+
+
+
+
+
+/*  responsive css write here  */
+
+
+@media screen and (max-width:767px) {
+
+    .distributer_form_container .form_wrapper .form_group {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+
+    .top_wrapper .main_title {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .distributer_form_container .form_content .title {
+    font-size: 30px;
+}
+.distributer_form_container .submit_btn {margin-top: 20px;}
+
+.agree_box{gap: 20px;}
+
+
+
+.bottom_section h3 {
+    font-size: 28px;}
+
+}

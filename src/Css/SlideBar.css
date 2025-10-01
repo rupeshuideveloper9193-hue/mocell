@@ -1,0 +1,75 @@
+.slidebar_overlay {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #00000080;
+    z-index: 1009899900;
+    width: 100vw;
+    height: 100vh;
+    height: 100vh;
+    transition: all .4s ease-in;
+    overflow-y: auto;
+}
+
+.slidebar_slide {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 330px;
+    height: 100vh;
+    z-index: 9999999999999999;
+    background-color: #fff;
+    transition: all .4s ease-in;
+    padding: 30px 20px;
+}
+
+.show_all_category option {
+    background-color: #f5f5f5;
+}
+
+.show_all_category select {
+    border: 1px solid #888;
+    width: 100%;
+    padding: 8px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+}
+
+.slidebar_slide .search_input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+
+
+}
+
+.slidebar_slide .search_input input {
+    border: none;
+    outline: none;
+}
+
+.slidebar_slide .search_icon {
+    position: absolute;
+    right: 10px;
+}
+
+
+
+
+
+
+
+/*   */
