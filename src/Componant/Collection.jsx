@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 
 import { useParams } from 'react-router-dom'
-import '../Css/collection.css'
+import '../Css/Collection.css'
 import BreadCrum from './BreadCrum'
 import { ShopContext } from '../context/ShopContext'
 import { CiHeart } from "react-icons/ci";

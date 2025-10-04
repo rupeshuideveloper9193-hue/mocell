@@ -51,12 +51,10 @@ p {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 30px;
-
   border-radius: 50px;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -89,12 +87,6 @@ p {
 .bg-slide-effect:hover span {
   color: white;
 }
-
-
-
-
-
-
 
 
 ul li a {
